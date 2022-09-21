@@ -13,5 +13,8 @@
   "bugs": {
     "url": "https://github.com/webplatformz/css-course-exercises/issues"
   },
-  "homepage": "https://github.com/webplatformz/css-course-exercises#readme"
+  "homepage": "https://github.com/webplatformz/css-course-exercises#readme",
+  "devDependencies": {
+    "live-server": "1.2.2"
+  }
 }
