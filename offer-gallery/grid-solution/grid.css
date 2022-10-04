@@ -1,0 +1,22 @@
+/* add your grid styles here */
+.person-grid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 2rem;
+}
+
+.person-grid .person-tile {
+  grid-column: span 6;
+}
+
+@media screen and (min-width: 700px) {
+  .person-grid .person-tile {
+    grid-column: span 3;
+  }
+}
+
+@media screen and (min-width: 1050px) {
+  .person-grid .person-tile {
+    grid-column: span 2;
+  }
+}
