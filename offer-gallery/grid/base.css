@@ -1,0 +1,40 @@
+@font-face {
+    font-family: Inter;
+    src: url("./assets/Inter-Regular.woff2") format("woff2");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: Inter;
+    src: url("./assets/Inter-Bold.woff2") format("woff2");
+    font-weight: 700;
+}
+
+* {
+    font-family: Inter, sans-serif;
+    color: #6F7075;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+    margin: 0;
+}
+
+button {
+    background-color: #e3e8ef;
+    border: none;
+    width: 10rem;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border-radius: 0.25rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #9DA2A8;
+    color: white;
+}

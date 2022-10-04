@@ -1,0 +1,76 @@
+.person-tile {
+    width: 25rem;
+    border: 1px solid #9DA2A8;
+    padding: 3rem 2rem;
+    border-radius: 0.5rem;
+}
+
+.personal-header {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    border-bottom: 1px solid #9DA2A8;
+    padding-bottom: 1rem;
+}
+
+.personal-header img {
+    width: 5.25rem;
+    height: 5.25rem;
+    border-radius: 50%;
+}
+
+.personal-header h1 {
+    color: black;
+    font-size: 1.75rem;
+    text-align: left;
+    margin: 0.5rem 0;
+}
+
+.personal-header p {
+    font-size: 1rem;
+    text-align: left;
+    margin: 0.5rem 0;
+}
+
+.product {
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+.product:not(:first-of-type) {
+    margin-top: 1rem;
+}
+
+.person-tile h2 {
+    color: black;
+    font-size: 1.4rem;
+    text-align: left;
+    margin-top: 1rem;
+}
+
+.product .product-title {
+    color: black;
+    font-size: 1.4rem;
+    font-weight: normal;
+    margin-bottom: 0.5rem;
+}
+
+.product p {
+    color: black;
+    font-weight: bold;
+    font-size: 1rem;
+    text-align: left;
+    margin: 0;
+}
+
+.product img {
+    height: 5.25rem;
+    border-radius: 0.5rem;
+}
+
+.actions-container {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-between;
+}
