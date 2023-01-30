@@ -10,7 +10,11 @@
     font-weight: 700;
 }
 
-* {
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+html {
     font-family: Inter, sans-serif;
     color: #6F7075;
 }
